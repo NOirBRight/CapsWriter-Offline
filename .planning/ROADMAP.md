@@ -33,7 +33,12 @@
 5. Punctuation model adds appropriate Chinese/English punctuation to text
 6. User can configure hotkey threshold (default 0.3s) and audio segment duration (default 25s) via config.py
 
-**Plans:** TBD
+**Plans:** 3 plans in 3 waves
+
+Plans:
+- [ ] 01-01-PLAN.md — Test infrastructure + unit tests (hotkey, punctuation, config)
+- [ ] 01-02-PLAN.md — Integration tests (streaming, server, subprocess)
+- [ ] 01-03-PLAN.md — E2E tests + verification checkpoint
 
 ---
 
@@ -60,7 +65,7 @@
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Core ASR Infrastructure | 0/N | Not started | - |
+| 1. Core ASR Infrastructure | 3/3 | Planning complete | - |
 | 2. Output & Hotword | 0/N | Not started | - |
 
 ---
